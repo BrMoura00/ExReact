@@ -1,0 +1,108 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.title-container {
+  height: auto;
+  width: 1280px;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-left: 55px;
+}
+
+.title-container h1 {
+  font-size: 2.0em;
+  padding-right: 3em;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-axios {
+  height: 6em;
+  padding: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo-router {
+  height: 5.5em;
+  padding: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo-npm {
+  height: 4em;
+  padding: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo-node {
+  height: 6em;
+  padding: 3em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo-node:hover {
+  filter: drop-shadow(0 0 2em #5cff11d5);
+}
+
+.logo-npm:hover {
+  filter: drop-shadow(0 0 2em #ff3511d5);
+}
+
+.logo-router:hover {
+  filter: drop-shadow(0 0 2em #ff00008f);
+}
+
+.logo-axios:hover {
+  filter: drop-shadow(0 0 2em #0d7affaa);
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
