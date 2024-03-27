@@ -1,8 +1,33 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 1920px;
   text-align: center;
+}
+
+.container-father {
+  height: auto;
+  width: 100vh;
+  display: flex;
+}
+
+.container-father > div {
+  padding: 1em;
+}
+
+.container-four > h1 {
+  font-size: 1.5em;
+  line-height: 4.3em;
+}
+
+.container-five>img {
+  margin-top: 25px;
+}
+
+.container-five > p {
+  margin-top: 30.5px;
+}
+
+.container-six>p {
+  margin-top: 25.5px;
 }
 
 .logo {
@@ -12,26 +37,6 @@
   transition: filter 300ms;
 }
 
-.title-container {
-  height: auto;
-  width: 1280px;
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20px;
-  margin-left: 55px;
-}
-
-.title-container h1 {
-  font-size: 2.0em;
-  padding-right: 3em;
-}
-
-.logo-container {
-  display: flex;
-  justify-content: center;
-}
 
 .logo-axios {
   height: 6em;
