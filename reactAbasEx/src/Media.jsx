@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import './App.css'
+import './Media.module.css'
 import Menu from './components/Menu'
 
 function Media() {
@@ -15,7 +15,7 @@ function Media() {
   return (
     <>
       <Menu/>
-        <div>
+        <div className='container'>
         {notas.map((nota, index) => (
         <input
           key={index}
