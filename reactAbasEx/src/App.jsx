@@ -11,40 +11,40 @@ function App() {
       <Menu/>
       <div className='container-father'>
 
-        <div className='container-one'>
-          <h1>Vite</h1>
+        <div className='container-logo'>
+          <h1 className='logo-title'>Vite</h1>
           <img src={viteLogo} className="logo" alt="Vite logo" />
-          <p>Vite Legal</p>
+          <p className='logo-pa'>Vite Legal</p>
         </div>
       
-        <div className='container-two'>
-          <h1>React</h1>
+        <div className='container-logo'>
+          <h1 className='logo-title'>React</h1>
           <img src={reactLogo} className="logo" alt="React logo" />
-          <p>React Legal</p>
+          <p className='logo-pa'>React Legal</p>
         </div>
 
-        <div className='container-tree'>
-          <h1>Axios</h1>
+        <div className='container-logo'>
+          <h1 className='logo-title'>Axios</h1>
           <img src="../public/imgs/axios_logo.png" className='logo-axios' alt="Axios logo" />
-          <p>Axios top de linha</p>
+          <p className='logo-pa'>Axios top de linha</p>
         </div>
 
-        <div className='container-four'>
-          <h1> REACT ROUTER</h1>
+        <div className='container-logo'>
+          <h1 className='logo-title'>ROUTER</h1>
           <img src="../public/imgs/react-router.png" className='logo-router' alt="Router logo" />
-          <p>REACT ROUTER top</p>
+          <p className='router-par'>REACT ROUTER top</p>
         </div>
 
-        <div className='container-five'>
-          <h1>Npm</h1>
+        <div className='container-logo'>
+          <h1 className='npm-title'>Npm</h1>
           <img src="../public/imgs/npm_logo.png" className='logo-npm' alt="Npm logo" />
-          <p>Npm top de linha</p>
+          <p className='npm-par'>Npm top de linha</p>
         </div>
 
-        <div className='container-six'>
-          <h1>Node</h1>
+        <div className='container-logo'>
+          <h1 className='logo-title'>Node</h1>
           <img src="../public/imgs/node_logopng.png"  className='logo-node' alt="Node logo" />
-          <p>Node daora meu</p>
+          <p className='logo-pa'>Node daora meu</p>
         </div>
 
       </div>

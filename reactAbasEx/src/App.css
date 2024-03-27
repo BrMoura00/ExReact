@@ -1,38 +1,46 @@
 #root {
-  width: 1920px;
-  text-align: center;
+  width: 1920px;  
 }
 
 .container-father {
   height: auto;
-  width: 100vh;
+  width: 1920;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 5vw;
+  padding: 5vw;
+} 
+
+.container-logo  {
+  height: auto;
+  justify-content: space-between;
 }
 
-.container-father > div {
-  padding: 1em;
+.logo-title {
+  height: 100px;
 }
 
-.container-four > h1 {
-  font-size: 1.5em;
-  line-height: 4.3em;
+.logo-pa {
+  margin-top: 100px;
 }
 
-.container-five>img {
-  margin-top: 25px;
+.router-par {
+  padding-top: 93px;
 }
 
-.container-five > p {
-  margin-top: 30.5px;
+.npm-title {
+  padding-bottom: 80px;
 }
 
-.container-six>p {
-  margin-top: 25.5px;
+.npm-par {
+  padding-top: 80px;
 }
 
 .logo {
   height: 6em;
-  padding: 3em;
   will-change: filter;
   transition: filter 300ms;
 }
@@ -40,28 +48,24 @@
 
 .logo-axios {
   height: 6em;
-  padding: 3em;
   will-change: filter;
   transition: filter 300ms;
 }
 
 .logo-router {
   height: 5.5em;
-  padding: 3em;
   will-change: filter;
   transition: filter 300ms;
 }
 
 .logo-npm {
   height: 4em;
-  padding: 3em;
   will-change: filter;
   transition: filter 300ms;
 }
 
 .logo-node {
   height: 6em;
-  padding: 3em;
   will-change: filter;
   transition: filter 300ms;
 }
