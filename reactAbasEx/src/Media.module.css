@@ -1,11 +1,60 @@
 .container {
-    height: auto;
-    width: 1920;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
+    gap: 20px; /* Aumente o espaço entre os itens */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Arial', sans-serif; /* Use uma fonte padrão */
+  }
+  
+  .nota-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Largura fixa para os rótulos e campos de entrada */
+  }
+  
+  .nota-input label {
+    display: block;
+    background-color: #008000; /* Verde para o fundo */
+    color: #fff; /* Texto em branco */
     text-align: center;
-    justify-content: center;
-    gap: 5vw;
-    padding: 5vw;
-}
+    padding: 5px;
+    margin-bottom: 5px; /* Espaço entre o rótulo e o campo de entrada */
+    border-radius: 5px; /* Borda arredondada */
+    font-size: 0.9em; /* Tamanho do texto um pouco menor */
+  }
+  
+  input[type="number"] {
+    width: calc(100% - 16px); /* Largura total menos o padding */
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #535bf2;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .media {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-weight: bold;
+  }
+  
